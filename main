@@ -1,0 +1,39 @@
+package main;
+
+import java.util.Scanner;
+
+import mathematics.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		/*
+		Arithmetic a = new Arithmetic();
+		Constants c = new Constants();
+		
+		System.out.println(c.pi);
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.print("Enter first number: ");
+		int n1 = s.nextInt();
+		
+		System.out.print("Enter second number: ");
+		int n2 = s.nextInt();
+		
+		int sum = a.add(n1, n2);
+		System.out.println("Answer: " + sum);
+		*/
+		
+		
+		
+		Arithmetic.addition(9, 8);
+		
+		System.out.print(Constants.pi);
+		
+		
+	}
+	
+
+}
